@@ -50,11 +50,9 @@ python tests.py
 | `main.py` | The main app with the terminal menu |
 | `banking.py` | All the banking functions |
 | `db.py` | Connects to the MySQL database |
-| `config.py` | Your database credentials (not on GitHub) |
-| `config.example.py` | Example of what config.py should look like |
+| `config.py` | My database credentials (not on GitHub) |
 | `setup_db.py` | Creates the database and tables |
 | `tests.py` | Tests for every banking function |
-| `sql_practice.sql` | SQL practice queries from Week 2 |
 
 ---
 
