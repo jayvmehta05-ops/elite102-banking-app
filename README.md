@@ -53,6 +53,7 @@ python tests.py
 | `config.py` | Your database credentials (not on GitHub) |
 | `setup_db.py` | Creates the database and tables |
 | `tests.py` | Tests for every banking function |
+| `config.example.py` | Example of what config.py should look like |
 
 ---
 
