@@ -1,21 +1,65 @@
-Vault Banking — Elite 102 Final Project
-A banking app built with Python and MySQL. Supports a web UI (Gradio) and a terminal UI.
-Files
+# Elite 102 Banking System
 
-# 1. Install dependencies
-pip install mysql-connector-python gradio pandas
+A terminal-based banking app built with Python and MySQL for the Elite 102 final project.
 
-# 2. Open config.py and set your MySQL password
+---
 
-# 3. Create the database and tables
+## What It Does
+
+- Create bank accounts
+- Deposit and withdraw money
+- Check account balances
+- Transfer money between accounts
+- View transaction history
+- Close accounts
+
+---
+
+## How to Run It
+
+**1. Install the required library**
+```
+pip install mysql-connector-python
+```
+
+**2. Set up your database credentials**
+
+Copy `config.example.py`, rename it to `config.py`, and fill in your MySQL username and password.
+
+**3. Create the database and tables**
+```
 python setup_db.py
+```
 
-# 4. Run the web app
-python app.py
-# Open http://localhost:7860
-
-# 5. Or run the terminal version
+**4. Run the app**
+```
 python main.py
+```
 
-# 6. Run the tests
+**5. Run the tests**
+```
 python tests.py
+```
+
+---
+
+## File Overview
+
+| File | Description |
+|---|---|
+| `main.py` | The main app with the terminal menu |
+| `banking.py` | All the banking functions |
+| `db.py` | Connects to the MySQL database |
+| `config.py` | Your database credentials (not on GitHub) |
+| `config.example.py` | Example of what config.py should look like |
+| `setup_db.py` | Creates the database and tables |
+| `tests.py` | Tests for every banking function |
+| `sql_practice.sql` | SQL practice queries from Week 2 |
+
+---
+
+## Built With
+
+- Python 3
+- MySQL
+- mysql-connector-python
